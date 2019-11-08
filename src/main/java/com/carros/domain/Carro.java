@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import javax.persistence.*;
 
-@Entity
+@Entity(name = "carro")
 @Data
 public class Carro {
 
